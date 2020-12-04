@@ -10,7 +10,7 @@ Make sure you have MySQL installed on your local machine.
 
 This [https://downloads.mysql.com/docs/sakila-en.pdf](document) describes Sakila sample database installation, structure, usage, and history.
 Use this document to install the sakila database on your dev machine.
-Or use the online pages at [https://dev.mysql.com/doc/sakila/en/](Sakila Sample Database).
+Or use the online pages at [https://dev.mysql.com/doc/sakila/en](Sakila Sample Database).
 
 The sources for the database are [https://downloads.mysql.com/docs/sakila-db.tar.gz](sakila-db.tar.gz) ---
 
