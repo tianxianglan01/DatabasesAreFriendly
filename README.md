@@ -1,18 +1,17 @@
 # DatabasesAreFriendly
 databases are a data engineer's Best Friend. and if not, do this lab and make them so. mysql needed. local is best.
 
-
 ## MySQL installed?
 
 Make sure you have MySQL installed on your local machine.
 
 ## Install Sakila Database
 
-This [https://downloads.mysql.com/docs/sakila-en.pdf](document) describes Sakila sample database installation, structure, usage, and history.
+This [document](https://downloads.mysql.com/docs/sakila-en.pdf) describes Sakila sample database installation, structure, usage, and history.
 Use this document to install the sakila database on your dev machine.
-Or use the online pages at [https://dev.mysql.com/doc/sakila/en](Sakila Sample Database).
+Or use the online pages at [Sakila Sample Database](https://dev.mysql.com/doc/sakila/en/).
 
-The sources for the database are [https://downloads.mysql.com/docs/sakila-db.tar.gz](sakila-db.tar.gz) ---
+The sources for the database are [sakila-db.tar.gz](https://downloads.mysql.com/docs/sakila-db.tar.gz)
 
 On the mac, double-clicking that file, once downloaded, should be all you need to do the installation.
 
@@ -41,7 +40,7 @@ There are two phases of the exercises for ths project.
 
 `select * from film natural join inventory;`
 
-The solutions to these are in [doc/sakila-queries-answers.sql](sakila-queries-answers.sql) (But don't look at them until you've really tried to solved them all yourself.)
+The solutions to these are in [sakila-queries-answers.sql](doc/sakila-queries-answers.sql) (But don't look at them until you've really tried to solved them all yourself.)
 
 ### Phase 2. Longer, Harder, More Realistic.
 
@@ -85,9 +84,7 @@ Use google as lightly as possible in solving these. These are the kind of querie
   	
 * 6d. How many copies of the film `Hunchback Impossible` exist in the inventory system?
 
-* 6e. Using the tables `payment` and `customer` and the `JOIN` command, list the total paid by each customer. List the customers alphabetically by last name:
-
-![Total amount paid](Images/total_payment.png)
+* 6e. Using the tables `payment` and `customer` and the `JOIN` command, list the total paid by each customer. List the customers alphabetically by last name
 
 * 7a. The music of Queen and Kris Kristofferson have seen an unlikely resurgence. As an unintended consequence, films starting with the letters `K` and `Q` have also soared in popularity. Use subqueries to display the titles of movies starting with the letters `K` and `Q` whose language is English. 
 
